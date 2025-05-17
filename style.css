@@ -72,8 +72,34 @@ body {
   align-items: flex-end;
 }
 
-
 .form-button:hover {
   background-color: orange;
   color: black;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.about-image {
+  width: 50%;
+  height: auto;
+}
+
+.about-text h2 {
+  font-size: 40px;
+  color: orange;
+}
+
+.about-text p {
+  font-size: 14px;
+  color: white;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
