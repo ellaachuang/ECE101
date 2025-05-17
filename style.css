@@ -61,6 +61,50 @@ html {
   margin: 0;
 }
 
+.course-section {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.left-box {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  padding: 30px;
+  flex: 1 1 55%;
+  min-width: 300px;
+}
+
+.left-box h2 {
+  color: orange;
+}
+
+.left-box ol {
+  padding-left: 20px;
+}
+
+.right-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+  min-width: 250px;
+}
+
+.right-box {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  padding: 20px;
+}
+
+.right-box h3 {
+  color: orange;
+}
+
 .form-button {
   display: inline-block;
   padding: 10px 20px;
