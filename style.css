@@ -14,6 +14,22 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: nowrap; /* default no wrap */
+}
+
+/* On small screens (phones) */
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;  /* align left */
+    gap: 10px;
+  }
+
+  .nav-links {
+    width: 100%;       /* take full width */
+    justify-content: flex-start; /* align links left */
+    gap: 15px;
+  }
 }
 
 .logo {
