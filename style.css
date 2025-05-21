@@ -22,6 +22,50 @@ html {
   font-weight: bold;
 }
 
+/* Hamburger button */
+.hamburger {
+  display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hamburger {
+    display: block;
+    margin-left: auto;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    display: none; /* hidden by default on mobile */
+    margin-top: 10px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    width: 100%;
+  }
+
+  .nav-links li a {
+    padding: 10px 0;
+    display: block;
+    width: 100%;
+  }
+}
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -82,7 +126,7 @@ html {
   border: 2px solid white;
   padding: 30px;
   flex: 1 1 55%;
-  min-width: 300px;
+  min-width: 200px;
 }
 
 .left-box h2 {
@@ -134,7 +178,7 @@ html {
 
 .about-section {
   display: flex;
-  gap: 30px;
+  gap: 60px;
   padding: 20px;
   align-items: center;
   justify-content: center;
@@ -143,7 +187,6 @@ html {
 
 .about-image {
   width: 70%;
-  height: auto;
   max-width: 500px;
   border-radius: 4px;
 }
