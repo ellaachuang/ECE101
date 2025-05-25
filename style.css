@@ -16,6 +16,13 @@ html {
   align-items: center;
 }
 
+@media (max-width: 500px) {
+  .navbar {
+    display: none;
+  }
+
+}
+
 .logo {
   color: white;
   font-size: 24px;
@@ -83,6 +90,7 @@ html {
   font-size: 16px;
   color: orange;
   margin: 0;
+  max-width: 70%;
 }
 
 .course-section {
