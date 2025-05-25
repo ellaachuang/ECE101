@@ -22,6 +22,25 @@ html {
   font-weight: bold;
 }
 
+.responsive-heading {
+  font-size: 60px;
+  max-width: 700px;
+}
+
+/* Medium screens */
+@media (max-width: 768px) {
+  .responsive-heading {
+    font-size: 48px;
+  }
+}
+
+/* Small screens */
+@media (max-width: 480px) {
+  .responsive-heading {
+    font-size: 36px;
+  }
+}
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -82,15 +101,11 @@ html {
   border: 2px solid white;
   padding: 30px;
   flex: 1 1 55%;
-  min-width: 250px;
+  min-width: 200px;
 }
 
 .left-box h2 {
   color: orange;
-}
-
-.left-box ol {
-  padding-left: 20px;
 }
 
 .right-boxes {
