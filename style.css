@@ -23,21 +23,20 @@ html {
 }
 
 .responsive-heading {
-  font-size: 60px;
-  max-width: 700px;
+  font-size: 70px;
 }
 
 /* Medium screens */
 @media (max-width: 768px) {
   .responsive-heading {
-    font-size: 48px;
+    font-size: 42px;
   }
 }
 
 /* Small screens */
 @media (max-width: 480px) {
   .responsive-heading {
-    font-size: 36px;
+    font-size: 24px;
   }
 }
 
@@ -84,13 +83,11 @@ html {
   font-size: 16px;
   color: orange;
   margin: 0;
-  max-width: 600px; 
 }
 
 .course-section {
   display: flex;
   gap: 40px;
-  padding: 40px;
   justify-content: space-between;
   flex-wrap: wrap;
 }
