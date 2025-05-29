@@ -30,20 +30,20 @@ html {
 }
 
 .responsive-heading {
-  font-size: 70px;
+  font-size: 100px;
 }
 
 /* Medium screens */
 @media (max-width: 700px) {
   .responsive-heading {
-    font-size: 42px;
+    font-size: 70px;
   }
 }
 
 /* Small screens */
 @media (max-width: 480px) {
   .responsive-heading {
-    font-size: 36px;
+    font-size: 50px;
   }
 }
 
